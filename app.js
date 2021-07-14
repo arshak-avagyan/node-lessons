@@ -35,3 +35,19 @@ Logger.emit('login', 'Arshak')
 Logger.emit('login', 'John')
 Logger.emit('getUsers')
 Logger.emit('getMessages')
+
+const argv = require('minimist')(process.argv.slice(2))
+
+addUser(argv.addUser)
+message(argv.message)
+
+function addUser (name) {
+    if(name) users.push(name)
+}
+
+function message (message) {
+    if(message) msgs.push(message)
+}
+
+// console.log(users)
+// console.log(msgs)
