@@ -1,0 +1,29 @@
+{
+  "name": "node-lessons",
+  "version": "1.0.0",
+  "description": "EPAM course",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshak-avagyan/node-lessons.git"
+  },
+  "author": "A.Avagyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arshak-avagyan/node-lessons/issues"
+  },
+  "homepage": "https://github.com/arshak-avagyan/node-lessons#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "csvtojson": "^2.0.10",
+    "decompress": "^4.2.1",
+    "directory-tree": "^2.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
